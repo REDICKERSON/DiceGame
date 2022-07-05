@@ -12,8 +12,8 @@ document.querySelector("button").addEventListener("click", function () { //lets 
     var randomNumber1 = myRandomNum();
     var randomNumber2 = myRandomNum();
     
-    document.querySelectorAll("img")[0].setAttribute("src", '/images/dice'+randomNumber1.toString()+'.png');
-    document.querySelectorAll("img")[1].setAttribute("src", '/images/dice'+randomNumber2.toString()+'.png');
+    document.querySelectorAll("img")[0].setAttribute("src", 'https://redickerson.github.io/DiceGame/DiceGame/images/dice'+randomNumber1.toString()+'.png');
+    document.querySelectorAll("img")[1].setAttribute("src", 'https://redickerson.github.io/DiceGame/DiceGame/images/dice'+randomNumber2.toString()+'.png');
 
     if (randomNumber1 > randomNumber2) { //if player one wins
         document.querySelector("h1").innerHTML="🏁Player 1 wins!";
