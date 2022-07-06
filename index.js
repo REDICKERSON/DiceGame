@@ -24,4 +24,5 @@ document.querySelector("button").addEventListener("click", function () { //lets 
     else { //if player two wins
         document.querySelector("h1").innerHTML="Player 2 wins!🏁";
     }
+    //
 });
